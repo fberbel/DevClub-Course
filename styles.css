@@ -1,0 +1,149 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 178px 42px;
+}
+
+.menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+}
+
+.section1 {
+    display: inline-block;
+}
+
+.section2 {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+ 
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+}   
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.saiba-mais {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+    
+    .menu {
+        display: none;
+    }   
+
+    button {
+        font-size: 12px;
+        line-height: 18px;
+        width: 91px;
+        height: 31px;
+        margin: 17px 0 0 284px;
+        display: block;
+    }
+
+    .section2 {
+        display: block;
+        width: 100%;
+        height: 60%;
+        margin: auto;
+        padding: 0;
+        position: absolute ;
+        top: 0;
+    }
+
+    .section1 {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: relative;
+        top: 460px;
+    }
+
+    img {
+        max-width: 80%;
+        height: 10%;
+        margin: 0 39px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+        text-align: center;
+        margin: 124px 55px 0;
+    }
+
+    p {
+        width: auto;
+        text-align: center;
+        margin: 29px 43px 26px;
+    }
+
+    .saiba-mais {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+
